@@ -1,0 +1,241 @@
+*{
+    background-color: #081b29;
+    color: aliceblue!important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@keyframes showRight{
+    100%{
+        width: 0;
+    }
+}
+
+.navbarr a{
+    margin-right: 35px;
+    padding: 10px;
+    font-size: larger!important;
+}
+.navbarr a:hover{
+    font-size:large!important;
+}
+.home{
+    height: 100vh;
+    background: url(Untitled\ design.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding:0 10%;
+}
+.btn-box a{
+    margin: 0.5rem;
+}
+.home-content{
+    max-width: 600px;
+
+}
+.home-content h1{
+    position: relative;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    
+    animation: showRight 1s ease forwards;
+   
+    animation-delay: 1s;
+}
+.home-content h3{
+     font-size: 32px;
+     font-weight: 700;
+     color: #00abf0;
+}
+
+.home-content h3::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    
+    animation: showRight 1s ease forwards;
+   
+    animation-delay: 2s;
+}
+.home-content p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+.home-sci{
+    position: absolute;
+    bottom: 1px;
+    width: 170px;
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+.home-sci a{
+    
+    display: inline-flex ;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+}
+.home-sci a:hover{
+    font-size:25px ;
+    background-color:#00abf0 ;
+}
+.home-imghover{
+    position: absolute;
+    top:3cm;
+    right: 30px;
+    width: 600px;
+    height: 100%;
+    background: transparent;
+    
+    transition: 3s;
+}
+
+.aboutme{
+    height: 100vh;
+    width: 100%;
+    background-color: #081b29;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo{
+    height: 50vh;
+    width: 30%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* object-fit: cover; */
+    border-radius: 50%;
+    background: url(IMG_2042c.jpg) no-repeat;
+   
+    background-size: cover;
+    background-position: center;
+    background-color: linear-gradient(yellow,red,blue,rgb(93, 93, 9));
+    padding: 10px;
+}
+.write{
+    height: 100vh;
+    width: 70%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutme span{
+    font-size:20px;
+    color: rgb(19, 230, 16)!important;
+    font-style:inherit;
+    text-underline-offset:inherit;
+}
+.aboutme li{
+    line-height: 2;
+    column-gap: normal;
+    font-weight: 600;
+    font-family:inherit;
+  
+}
+
+.skill{
+    height: 70rem;
+    width: 100%;
+    background-color: #081b29;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    margin: 1rem;
+    width: 15rem!important;
+    border-radius: 10px!important;
+    border: 5px solid rgb(15, 225, 169) !important;
+    /* border-color: rgb(208, 11, 47)!important; */
+    box-shadow: 2px;
+}
+.skill img{
+    height: 220px!important;
+    width: 220px!important;
+  
+}
+.skill h5{
+    font-size: large;
+    padding-left: 1.5em;
+    color:#00abf0 !important;
+}
+.skill a{
+    margin-left: 1.5rem;
+}
+.card:hover{
+    border: 8px solid rgb(19, 223, 4)!important;
+}
+
+.contact{
+    height: 50rem;
+    width: 100%;
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+ 
+    
+}
+.forms{
+height: 40rem;
+width: 40rem;
+
+
+}
+.Contacts{
+    height: 40rem!important;
+    width: 40rem!important;
+    line-height: 5;
+    font-size: large;
+
+}
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #081b29;
+}
+.horse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.contact form input{
+    color: black!important;
+}
+.line{
+    height: 5px;
+    width: 100%;
+    background-color: chartreuse;
+    
+}
